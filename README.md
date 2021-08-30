@@ -7,6 +7,3 @@ You can view it at [https://cameronbertie.github.io/personal-portfolio](https://
 * HTML
 * CSS
 * JavaScript
-
-
-# personal-portfolio
