@@ -12,7 +12,7 @@
 
 #about-me{
     background-color: white;
-    border-bottom: 10px solid pink;
+    border-bottom: 10px solid #C18794;
 }
 
 
@@ -73,7 +73,7 @@ color: black;
 
 #projects{
     background-color: black;
-    border-bottom: 10px solid pink;
+    border-bottom: 10px solid #C18794;
 }
 
 .projects-container{
@@ -104,11 +104,12 @@ color: black;
     display: flex;
     justify-content: space-between;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 .open-project:hover{
     color: black;
-    background-color: pink;
+    background-color: #C18794;
 }
 
 #projects p{
@@ -124,7 +125,7 @@ color: black;
 }
 
 .project-border{
-    border: 2px solid pink;
+    border: 2px solid #C18794;
     margin: 16px 16px 0 16px;
 
 }
@@ -143,14 +144,16 @@ color: black;
     padding: 0 16px;
 }
 
-#view-project{
-    cursor: pointer;
-}
-
 #full-project{
     display:none;
     padding-bottom: 16px;
 }
+
+#full-project, #full-project-1, #full-project-2, #full-project-3, #full-project-4, #full-project-5{
+    display:none;
+    padding-bottom: 16px;
+}
+
 
 .image2{
     max-width: 100%;
@@ -172,7 +175,13 @@ color: black;
     flex: 1;
 }
 
-#projects .fab {
+#projects .fa-brands {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+#projects .fa-solid {
     color: white;
     font-size: 32px;
     text-align: center;
@@ -201,8 +210,8 @@ color: black;
 
 .site-button{
     width: 100%;
-    background-color: pink;
-    border: 2px solid pink;
+    background-color: #C18794;
+    border: 2px solid #C18794;
     transition: all 0.3s ease 0s;
 }
 
@@ -221,14 +230,14 @@ color: black;
 }
 
 .code-button:hover{
-    color: pink;
-    border: 2px solid pink;
+    color: #C18794;
+    border: 2px solid #C18794;
 }
 
 /* SKILLS */
 #skills{
     background-color: white;
-    border-bottom: 10px solid pink;
+    border-bottom: 10px solid #C18794;
 }
 
 .skills-container{
@@ -247,7 +256,12 @@ color: black;
     text-transform: uppercase;
 }
 
-#skills .fab {
+#skills .fa-brands {
+    font-size: 32px;
+    text-align: center;
+}
+
+#skills .fa-solid {
     font-size: 32px;
     text-align: center;
 }
@@ -273,11 +287,11 @@ color: black;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 16px;
     padding: 0 0 16px 0;
     margin: 0 0 16px 0;
-    border-bottom: 10px solid black;
+    /* border-bottom: 10px solid black; */
 }
 
 .skills-box{
@@ -318,9 +332,9 @@ color: black;
     text-transform: uppercase;
     cursor: pointer;
     width: 100%;
-    background: pink;
+    background: #C18794;
     color: black;
-    border: 2px solid pink;
+    border: 2px solid #C18794;
     transition: all 0.3s ease 0s;
 
 }
